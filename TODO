@@ -1,0 +1,15 @@
+
+- Centralize documentation in markdown, rather than some on the website, some in
+  the readme.
+
+- Create a simple example bookmarklet
+	- Shows addresses, a few links
+	- Mashup with https://developers.google.com/maps/documentation/javascript/geocoding
+	- Link to this from the documentation
+
+Future:
+	- Add OpenGraph support?
+	- Add an inbrowser test set
+		- Testling? Honestly, though, every time I've used it it seems massively
+		  unfinished, unreliable, and I wish I could have the 6 hours of my life
+		  back...

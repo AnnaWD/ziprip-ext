@@ -1,0 +1,28 @@
+{
+  "name": "ziprip-ext",
+  "version": "0.0.3",
+  "author": "Peter Sergeant <pete@clueball.com>",
+  "description": "Extract postal addresses from the DOM",
+  "main": "./src/ziprip.js",
+  "keywords": [
+    "postcode",
+    "zipcode",
+    "geocoding",
+    "address"
+  ],
+  "devDependencies": {
+    "jsdom": "~0.2.x",
+    "tap": "~0.3.x",
+    "uglify-js": "~1.3.x"
+  },
+  "license": "MIT",
+  "engine": {
+    "node": ">=0.4"
+  },
+  "scripts": {
+    "test": "tap ./test/*.js"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
